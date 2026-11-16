@@ -1,0 +1,44 @@
+-- Date: 16-11-2026
+-- Platform: HackerRank
+-- Problem: Revising the Select Query
+-- Difficulty: Easy
+-- Topic: SELECT, WHERE
+
+SELECT *
+from CITY
+where countrycode='USA' AND
+population>100000;
+
+-- Problem: Select All
+-- Difficulty: Easy
+-- Topic: SELECT
+
+SELECT *
+FROM CITY;
+
+
+-- Problem: Select By ID
+-- Difficulty: Easy
+-- Topic: WHERE
+
+SELECT *
+FROM CITY
+WHERE ID = 1661;
+
+
+-- Problem: Japanese Cities' Attributes
+-- Difficulty: Easy
+-- Topic: WHERE
+
+SELECT *
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
+
+
+-- Problem: Japanese Cities' Names
+-- Difficulty: Easy
+-- Topic: SELECT, WHERE
+
+SELECT NAME
+FROM CITY
+WHERE COUNTRYCODE = 'JPN';
